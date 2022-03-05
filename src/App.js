@@ -14,7 +14,7 @@ function App() {
 
   async function getNews() {
     try {
-      const response = await axios.get('https://gnews.io/api/v4/search?q=examples&token=bdd052cc7d96e3f1b8e81224b79e1f30&lang=en')
+      const response = await axios.get('https://gnews.io/api/v4/top-headlines?token=bdd052cc7d96e3f1b8e81224b79e1f30&lang=en')
       setNews(response.data)
     } catch (error) {
       console.log(error)
@@ -31,7 +31,7 @@ function App() {
   }
 
   useEffect(() => {
-    getNews()
+    
   });
 
 
