@@ -42,7 +42,7 @@ function App() {
       <Route path='' element={<Home />} />
       <Route path='/news' element={<News news={news}/>}/>
       <Route path='/caregivers' element={<Caregivers />}/>
-      <Route path='/restrooms' element={<Restrooms />}/>
+      <Route path='/restrooms' element={<Restrooms restrooms={restrooms}/>}/>
     </Routes>
     </>
   );
