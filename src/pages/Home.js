@@ -7,7 +7,9 @@ const Home = () => {
             <Link to='/caregivers'>
             <button>Get Care</button>
             </Link>
+            <Link to='/categories'>
             <button>Get Resources</button>
+            </Link>
         </>
     )
 };
