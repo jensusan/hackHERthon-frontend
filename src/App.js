@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from "react-router-dom";
+import { useState, useEffect } from "react";
+import Home from "./pages/Home"; 
+const axios = require('axios');
 
 function App() {
+  const [news, setNews] =
+  useState([])
+
+  async function getNews() {
+    try {
+      const response = await axios.get('https://gnews.io/api/v4/search?q=example&token=bdd052cc7d96e3f1b8e81224b79e1f30&lang=en')
+      console.log(response.data)
+    } catch (error) {
+      console.log(error)
+    };
+  };
+
+  useEffect(() => {
+    getNews()
+  });
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='' element={<Home />} />
+    </Routes>
   );
 }
 
