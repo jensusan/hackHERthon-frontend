@@ -14,9 +14,17 @@ function App() {
     setIframeVisible(true)
   }
 
+<<<<<<< HEAD
   const handleHideIframe = () => {
     setIframeVisible(false)
   }
+=======
+  useEffect(() => {
+    getNews()
+    getRestrooms()
+  }, []);
+
+>>>>>>> dev
 
   return (
     <>
