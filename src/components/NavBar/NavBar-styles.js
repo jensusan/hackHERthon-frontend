@@ -27,6 +27,7 @@ export const Content = styled.div`
      text-decoration: none;
      color: black;
      font-size: 20px;
+     letter-spacing: 1px;
     }
 
     li:hover {
