@@ -32,7 +32,8 @@ function App() {
 
   useEffect(() => {
     getNews()
-  });
+    getRestrooms()
+  }, []);
 
 
   return (
