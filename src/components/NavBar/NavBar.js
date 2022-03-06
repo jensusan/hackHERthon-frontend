@@ -4,7 +4,9 @@ import {Wrapper, Content, Img} from './NavBar-styles';
 const NavBar = () => {
     return(
         <Wrapper>
-        <Img src= "/eva.png"/>
+            <Link to='/'>
+            <Img src= "/eva.png"/>
+        </Link>
         <Content>
         <ul>
             <Link to='/categories' style={{ textDecoration: 'none' }}>
