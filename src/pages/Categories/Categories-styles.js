@@ -27,6 +27,7 @@ export const Content = styled.div`
         align-items: center;
         border-radius: 5%;
     }
+    
 
 
 

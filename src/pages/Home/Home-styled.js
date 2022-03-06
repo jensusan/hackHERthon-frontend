@@ -28,6 +28,10 @@ export const Button = styled.button`
   font-size: 22px;
   font-family: 'Poppins', sans-serif;
 
+  :focus {
+    background-color: white;
+    color: #034F96;
+  }
 
 `
 export const Icons = styled.img`
