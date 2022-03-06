@@ -15,14 +15,13 @@ const Mobility = () => {
             <div className="container">
             <h2>Mobility</h2>
                 <p className={activeIndex === 0 ? 'active-btn' : ''} onClick={() => handleActive(0)}>Wheelchairs for Ukraine</p>
-                <h2>Medications</h2>
-                <p className={activeIndex === 3 ? 'active-btn' : ''} onClick={() => handleActive(3)}>Medication Delivery Service</p>
             <h2>Bathrooms</h2>
                 <p className={activeIndex === 1 ? 'active-btn' : ''} onClick={() => handleActive(1)}>Changing Places: Global map of peer-approved accessible bathrooms</p>
             <h2>Food</h2>
                 <p className={activeIndex === 2 ? 'active-btn' : ''} onClick={() => handleActive(2)}>Freedge: Find free fridges around the world</p>
-
-           
+                
+            <h2>Medications</h2>
+                <p className={activeIndex === 3 ? 'active-btn' : ''} onClick={() => handleActive(3)}>Medication Delivery Service</p>
             </div>
             <div>
             <iframe title='2' className={activeIndex === 0 ? 'active' : ''}src="https://www.uuarc.org/our-programs/wheelchairs-for-ukraine/">
