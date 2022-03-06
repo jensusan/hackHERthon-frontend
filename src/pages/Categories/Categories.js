@@ -6,7 +6,7 @@ const Categories = () => {
         <Wrapper>
            <h2>I need help with:</h2> 
            <Content>
-               <Link to='/mobility'>
+               <Link to='/mobility' style={{ textDecoration: 'none' }}>
                <div className='box'>
                 <p>Mobility/Physical</p>
                 <img src='/wheelchair-icon.png' alt='wheelchair icon'/>
