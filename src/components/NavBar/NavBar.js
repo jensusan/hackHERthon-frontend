@@ -7,14 +7,16 @@ const NavBar = () => {
         <Img src= "/eva.png"/>
         <Content>
         <ul>
-            <Link to='/caregivers' style={{ textDecoration: 'none' }}>
-            <li>Care</li>
-            </Link>
             <Link to='/categories' style={{ textDecoration: 'none' }}>
             <li>Resources</li>
             </Link>
+            <Link to='/shelters' style={{ textDecoration: 'none' }}>
+            <li>Shelters</li>
+            </Link>
             <Link to='/about' style={{ textDecoration: 'none' }}>
             <li>About</li>
+            </Link>
+            <Link to='/donate' style={{ textDecoration: 'none' }}><li>Donate</li>
             </Link>
         </ul>
         </Content>

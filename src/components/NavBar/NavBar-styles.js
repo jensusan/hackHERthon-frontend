@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 30px;
-    border-bottom: solid black 2px;
 
     h1 {
         padding-bottom: 10px;
@@ -39,7 +38,7 @@ export const Content = styled.div`
 `;
 
 export const Img = styled.img`
-width: 250px;
+width: 225px;
 height: 50px;
 padding:  0 0 20px 0;
 
