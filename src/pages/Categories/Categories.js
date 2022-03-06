@@ -1,13 +1,16 @@
 import {Wrapper, Content} from './Categories-styles';
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
     return (
         <Wrapper>
            <h2>I need help with:</h2> 
            <Content>
+               <Link to='/mobility'>
                <div className='box'>
                 <p>Mobility/Physical</p>
                </div>
+               </Link>
                 <div className='box'>
                 <p>Spinal Cord/SCI</p>
                </div>
