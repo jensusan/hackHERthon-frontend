@@ -7,17 +7,19 @@ const Home = () => {
         <Wrapper>
             
             <Img src= "/eva.png"/>
-            <Link to='/caregivers'>
-            <Button> Get Care 
+            <div classname='btn-container'>
+            <Link to='/categories'>
+            <Button>Find Resources
+                <Icons src='/info_icon.png' 
+                alt="React Logo" /> </Button>
+            </Link>
+            <Link to='/shelters'>
+            <Button> Find Shelter 
                 <Icons src='/Nurse_Icon.png' 
                 alt="React Logo" /> 
             </Button>
             </Link>
-            <Link to='/categories'>
-            <Button>Get Resources
-                <Icons src='/info_icon.png' 
-                alt="React Logo" /> </Button>
-            </Link>
+            </div>
         </Wrapper>
     )
 };

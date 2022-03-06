@@ -28,12 +28,12 @@ const Mobility = () => {
                 <p className={activeIndex === 4 ? 'active-btn' : ''} onClick={() => handleActive(4)}>Chicago Food Bank</p>
             </div>
             <div>
-            <iframe className={activeIndex === 0 ? 'active' : ''}src="https://www.chicagosfoodbank.org/">
+            <iframe title='2' className={activeIndex === 0 ? 'active' : ''}src="https://www.chicagosfoodbank.org/">
             </iframe>
-            <iframe className={activeIndex === 1 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
-            <iframe className={activeIndex === 2 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
-            <iframe className={activeIndex === 3 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
-            <iframe className={activeIndex === 4 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
+            <iframe title='1' className={activeIndex === 1 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
+            <iframe title='2' className={activeIndex === 2 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
+            <iframe title='3' className={activeIndex === 3 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
+            <iframe title='4' className={activeIndex === 4 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
             <iframe className={activeIndex === 5 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
             <iframe className={activeIndex === 6 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
             </div>
