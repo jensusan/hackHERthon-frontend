@@ -14,20 +14,16 @@ const Caregivers = () => {
                 <Content>
                 <div className="container">
                 <h2>Shelter</h2>
-                    <p className={activeIndex === 0 ? 'active-btn' : ''} onClick={() => handleActive(0)}>Article 1</p>
+                    <p className={activeIndex === 0 ? 'active-btn' : ''} onClick={() => handleActive(0)}>UN Refugee Agency: Find shelter in Ukraine</p>
     
-                    <p className={activeIndex === 1 ? 'active-btn' : ''} onClick={() => handleActive(1)}>Article 2</p>
-    
-                    <p className={activeIndex === 2 ? 'active-btn' : ''} onClick={() => handleActive(2)}>Article 3</p>
-    
+                    <p className={activeIndex === 1 ? 'active-btn' : ''} onClick={() => handleActive(1)}>Prykhystok (Shelter): share housing with those who lost it due to shelling, or find shelter for yourself</p>
             
                 </div>
                 <div>
-                <iframe className={activeIndex === 0 ? 'active' : ''}src="https://www.chicagosfoodbank.org/">
+                <iframe title='0' className={activeIndex === 0 ? 'active' : ''}src="https://help.unhcr.org/ukraine/list-of-organizations-ready-to-provide-shelter/">
                 </iframe>
-                <iframe className={activeIndex === 1 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
-                <iframe className={activeIndex === 2 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
-                <iframe className={activeIndex === 3 ? 'active' : ''}src="https://www.chicagosfoodbank.org/"></iframe>
+                <iframe title='1' className={activeIndex === 1 ? 'active' : ''}src="https://visitukraine.today/blog/99/prykhystok-shelter-share-housing-with-those-who-lost-it-due-to-shelling-or-find-shelter-for-yourself"></iframe>
+                
                 </div>
                 </Content>
             </Wrapper>
