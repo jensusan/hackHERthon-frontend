@@ -20,7 +20,7 @@ export const Content = styled.div`
         width: 236px;
         height: 236px;
         padding: 10px;
-        margin: 50px;
+        margin: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
