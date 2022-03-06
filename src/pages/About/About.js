@@ -9,8 +9,7 @@ const About = () => {
                 <div className="boxes">
                     <p>One billion people,
 15% of the world's population, experience some form of disability.</p>
-<p>One billion people,
-15% of the world's population, experience some form of disability.</p>
+<p>In the event of a crisis or disaster, people with disabilities are more likely to be left behind.</p>
 <p>Some people are have difficulty accessing essential resources because of their disability.</p>
                     </div>
                  <h2>How do we do this?</h2>   
