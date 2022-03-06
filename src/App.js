@@ -24,8 +24,8 @@ function App() {
     <Routes>
       <Route path='' element={<Home />} />
       <Route path='/categories' element={<Categories />}/>
-      <Route path='/mobility' element={<Mobility handleShowIframe={handleShowIframe} iframeVisible={iframeVisible}/>}/>
-      <Route path='/caregivers' element={<Caregivers />}/>
+      <Route path='/mobility' element={<Mobility handleShowIframe={handleShowIframe} iframeVisible={iframeVisible} handleHideIframe={handleHideIframe}/>}/>
+      <Route path='/shelters' element={<Caregivers />}/>
       <Route path='/about' element={<About />}>
       </Route>
     </Routes>
