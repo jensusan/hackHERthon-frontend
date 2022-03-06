@@ -11,12 +11,12 @@ const Home = () => {
             <Link to='/categories'>
             <Button>Find Resources
                 <Icons src='/info_icon.png' 
-                alt="React Logo" /> </Button>
+                alt="info icon" /> </Button>
             </Link>
             <Link to='/shelters'>
             <Button> Find Shelter 
-                <Icons src='/Nurse_Icon.png' 
-                alt="React Logo" /> 
+                <Icons src='/emergency-post-svgrepo-com 2.png' 
+                alt="Shelter" /> 
             </Button>
             </Link>
             </div>
