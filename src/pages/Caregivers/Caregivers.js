@@ -1,4 +1,4 @@
-import { Wrapper, Content } from "../Mobility/Mobility-styles";
+import { Wrapper, Content } from "./Caregivers-styles";
 import { useState } from "react";
 
 const Caregivers = () => {
