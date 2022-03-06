@@ -21,10 +21,9 @@ export const Content = styled.div`
         background-color: #034F96;
         color: white;
         border-radius: 5px;
-        padding-left: 25px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        gap: 20px;
         height: 70vh;
         width: 15vw;
     }
@@ -40,15 +39,23 @@ export const Content = styled.div`
     }
 
     .active-btn {
-        
+        display: flex;
+        align-items: center;
+        background-color:  white;
+        color: #034F96;
+        height: 30px;
+        padding-left: 25px;
     }
 
     p {
         cursor: pointer;
         font-size: 16px;
+        padding-left: 25px;
     }
 
     h2 {
         font-size: 28px;
+        padding-left: 25px;
+        padding-top: 20px;
     }
 `;
