@@ -23,9 +23,9 @@ export const Content = styled.div`
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
         height: 70vh;
         width: 15vw;
+        gap: 2px;
     }
     
     iframe {
@@ -43,7 +43,6 @@ export const Content = styled.div`
         align-items: center;
         background-color:  white;
         color: #034F96;
-        height: 30px;
         padding-left: 25px;
     }
 
