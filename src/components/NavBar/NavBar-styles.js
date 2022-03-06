@@ -28,13 +28,6 @@ export const Content = styled.div`
      font-size: 20px;
      letter-spacing: 1px;
     }
-
-    li:hover {
-        font-size: 25px;
-    }
-
-
-    
 `;
 
 export const Img = styled.img`
