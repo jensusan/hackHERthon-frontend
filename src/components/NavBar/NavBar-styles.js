@@ -31,7 +31,7 @@ export const Content = styled.div`
 `;
 
 export const Img = styled.img`
-width: 225px;
+width: 200px;
 height: 50px;
 padding:  0 0 20px 0;
 
