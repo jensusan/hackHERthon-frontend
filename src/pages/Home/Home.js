@@ -1,16 +1,24 @@
 import { Link } from "react-router-dom";
+import { Img , Wrapper, Button, Icons} from './Home-styled';
+
 
 const Home = () => {
     return(
-        <>
-            <h1>Home</h1>
+        <Wrapper>
+            
+            <Img src= "/eva.png"/>
             <Link to='/caregivers'>
-            <button>Get Care</button>
+            <Button> Get Care 
+                <Icons src='/Nurse_Icon.png' 
+                alt="React Logo" /> 
+            </Button>
             </Link>
             <Link to='/categories'>
-            <button>Get Resources</button>
+            <Button>Get Resources
+                <Icons src='/info_icon.png' 
+                alt="React Logo" /> </Button>
             </Link>
-        </>
+        </Wrapper>
     )
 };
 

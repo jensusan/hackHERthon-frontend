@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import {Wrapper, Content} from './NavBar-styles';
+import {Wrapper, Content, Img} from './NavBar-styles';
 
 const NavBar = () => {
     return(
         <Wrapper>
-        <h1>Evac-Ability</h1>
+        <Img src= "/eva.png"/>
         <Content>
         <ul>
             <Link to='/caregivers' style={{ textDecoration: 'none' }}>

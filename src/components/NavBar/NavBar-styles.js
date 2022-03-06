@@ -37,3 +37,10 @@ export const Content = styled.div`
 
     
 `;
+
+export const Img = styled.img`
+width: 250px;
+height: 50px;
+padding:  0 0 20px 0;
+
+`
