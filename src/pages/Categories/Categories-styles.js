@@ -23,10 +23,12 @@ export const Content = styled.div`
         margin: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         border-radius: 5%;
     }
+
+
 
 
 `;
