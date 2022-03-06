@@ -10,9 +10,10 @@ const Mobility = () => {
     return(
 
         <Wrapper>
-            <h1>Mobility Resources</h1>
+            <p className="title">Resources  >  <span>Mobility</span></p>
             <Content>
             <div className="container">
+            <h2>Mobility</h2>
             <h2>Food</h2>
                 <p className={activeIndex === 0 ? 'active-btn' : ''} onClick={() => handleActive(0)}>Article 1</p>
 
